@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "X-Forwarded-For",
+                    "operation": "set",
+                    "value": "1.1.1.1,2.2.2.2"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "*",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    }
+]

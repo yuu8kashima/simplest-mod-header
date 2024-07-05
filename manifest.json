@@ -1,0 +1,21 @@
+{
+    "name":"Mod Header V3",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "declarative_net_request":{
+        "rule_resources":[
+            {
+                "id":"ruleset",
+                "enabled":true,
+                "path":"ruleset.json"
+            }
+        ]
+    },
+    "permissions":[
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+}
